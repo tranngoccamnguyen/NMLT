@@ -1,0 +1,4 @@
+﻿  Bai038.cpp
+D:\Git\23520588_23521061\Bai038\Bai038.cpp(20,9): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+D:\Git\23520588_23521061\Bai038\Bai038.cpp(23,9): warning C4244: 'return': conversion from 'long' to 'float', possible loss of data
+  Bai038.vcxproj -> D:\Git\23520588_23521061\x64\Debug\Bai038.exe

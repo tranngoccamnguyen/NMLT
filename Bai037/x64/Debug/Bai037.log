@@ -1,0 +1,4 @@
+﻿  Bai037.cpp
+D:\Git\23520588_23521061\Bai037\Bai037.cpp(20,9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Git\23520588_23521061\Bai037\Bai037.cpp(23,9): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  Bai037.vcxproj -> D:\Git\23520588_23521061\x64\Debug\Bai037.exe
