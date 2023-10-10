@@ -1,0 +1,4 @@
+﻿  Bai120.cpp
+D:\Git\NMLT\Bai120\Bai120.cpp(21,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Git\NMLT\Bai120\Bai120.cpp(23,8): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Bai120.vcxproj -> D:\Git\NMLT\x64\Debug\Bai120.exe

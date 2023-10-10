@@ -1,0 +1,4 @@
+﻿  Bai077.cpp
+D:\Git\NMLT\Bai077\Bai077.cpp(24,9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Git\NMLT\Bai077\Bai077.cpp(27,9): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  Bai077.vcxproj -> D:\Git\NMLT\x64\Debug\Bai077.exe

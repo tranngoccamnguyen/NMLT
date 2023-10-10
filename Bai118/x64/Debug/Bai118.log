@@ -1,0 +1,3 @@
+﻿  Bai118.cpp
+D:\Git\NMLT\Bai118\Bai118.cpp(22,8): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Bai118.vcxproj -> D:\Git\NMLT\x64\Debug\Bai118.exe

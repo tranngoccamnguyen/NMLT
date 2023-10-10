@@ -1,1 +1,3 @@
-﻿
+﻿  Bai002.cpp
+D:\Git\NMLT\Bai002\Bai002.cpp(22,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Bai002.vcxproj -> D:\Git\NMLT\x64\Debug\Bai002.exe

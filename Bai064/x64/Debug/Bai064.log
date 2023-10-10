@@ -1,1 +1,5 @@
-﻿
+﻿  Bai064.cpp
+D:\Git\NMLT\Bai064\Bai064.cpp(19,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Git\NMLT\Bai064\Bai064.cpp(23,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Git\NMLT\Bai064\Bai064.cpp(28,12): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Bai064.vcxproj -> D:\Git\NMLT\x64\Debug\Bai064.exe

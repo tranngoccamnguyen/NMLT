@@ -1,1 +1,5 @@
-﻿
+﻿  Bai010.cpp
+D:\Git\NMLT\Bai010\Bai010.cpp(44,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Git\NMLT\Bai010\Bai010.cpp(45,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Git\NMLT\Bai010\Bai010.cpp(46,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Bai010.vcxproj -> D:\Git\NMLT\x64\Debug\Bai010.exe

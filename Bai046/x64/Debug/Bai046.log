@@ -1,1 +1,3 @@
-﻿
+﻿  Bai046.cpp
+D:\Git\NMLT\Bai046\Bai046.cpp(20,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Bai046.vcxproj -> D:\Git\NMLT\x64\Debug\Bai046.exe

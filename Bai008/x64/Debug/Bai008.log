@@ -1,1 +1,4 @@
-﻿
+﻿  Bai008.cpp
+D:\Git\NMLT\Bai008\Bai008.cpp(18,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Git\NMLT\Bai008\Bai008.cpp(24,21): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Bai008.vcxproj -> D:\Git\NMLT\x64\Debug\Bai008.exe
