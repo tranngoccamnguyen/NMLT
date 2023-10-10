@@ -1,25 +1,25 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-int tichuocso(int);
+int dem(int);
 int main()
 {
 	int n;
 	cout << "Nhap n: ";
 	cin >> n;
-	cout << "Tich uoc so: ";
-	cout << tichuocso(n);
+	cout << "So luong uoc so chan: ";
+	cout << dem(n);
 	return 0;
 }
-int tichuocso(int nn)
+int dem(int nn)
 {
-	int i = 1;
-	int t = 1;
+	int i = 2;
+	int dem = 0;
 	while (i <= nn)
 	{
 		if (nn % i == 0)
-			t = t * i;
-		i = i + 1;
+			dem += 1;
+		i = i + 2;
 	}
-	return t;
+	return dem;
 }

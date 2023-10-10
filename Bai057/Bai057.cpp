@@ -1,25 +1,25 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-int tichuocso(int);
+int tonguocso(int);
 int main()
 {
 	int n;
 	cout << "Nhap n: ";
 	cin >> n;
-	cout << "Tich uoc so: ";
-	cout << tichuocso(n);
+	cout << "Tong uoc so: ";
+	cout << tonguocso(n);
 	return 0;
 }
-int tichuocso(int nn)
+int tonguocso(int nn)
 {
 	int i = 1;
-	int t = 1;
-	while (i <= nn)
+	int s = 0;
+	while (i < nn)
 	{
 		if (nn % i == 0)
-			t = t * i;
+			s = s + i;
 		i = i + 1;
 	}
-	return t;
+	return s;
 }

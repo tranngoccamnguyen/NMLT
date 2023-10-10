@@ -1,17 +1,19 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-int tichuocso(int);
+int tichuocsole(int);
+
 int main()
 {
 	int n;
 	cout << "Nhap n: ";
 	cin >> n;
-	cout << "Tich uoc so: ";
-	cout << tichuocso(n);
+	cout << "Tich uoc so le: ";
+	cout << tichuocsole(n);
 	return 0;
 }
-int tichuocso(int nn)
+
+int tichuocsole(int nn)
 {
 	int i = 1;
 	int t = 1;
@@ -19,7 +21,7 @@ int tichuocso(int nn)
 	{
 		if (nn % i == 0)
 			t = t * i;
-		i = i + 1;
+		i = i + 2;
 	}
 	return t;
 }
