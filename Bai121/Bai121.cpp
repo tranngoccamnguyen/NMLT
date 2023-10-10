@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 float sohang(int);
 int main()
@@ -13,13 +12,14 @@ int main()
 }
 float sohang(int nn)
 {
-	int at = 2;
+	int att = 1, at = 1;
 	int i = 2;
 	float ahh;
 	while (i <= nn)
 	{
-		ahh = 5 * at + sqrt(24 * at * at - 8);
+		ahh = at + att;
 		i++;
+		att = at;
 		at = ahh;
 	}
 	return ahh;
