@@ -3,8 +3,7 @@
 #include <cmath>
 #include <iomanip>
 using namespace std;
-
-float ChuVi(float);
+float ChuVi(int, int);
 
 int main()
 {
@@ -20,7 +19,7 @@ int main()
 	return 1;
 }
 
-float ChuVi(float rr, int nn)
+float ChuVi(int rr, int nn)
 {
 	return 2 * nn * rr * sin(M_PI / nn);
 }

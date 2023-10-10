@@ -21,7 +21,7 @@ int main()
 	cout << "Diem thu ba: " << endl;
 	Xuat(x3, y3);
 	cout << "Dien tich la: ";
-	cout << fixed << setprecision(3) << Dientich(x1, y1, x2, y2, x3, y3);
+	cout << fixed << setprecision(3) << DienTich(x1, y1, x2, y2, x3, y3);
 	return 1;
 }
 
@@ -39,7 +39,7 @@ void Xuat(float xx, float yy)
 	cout << "Tung do: " << yy << endl;
 }
 
-float Dientich(float x1, float y1, float x2, float y2, float x3, float y3)
+float DienTich(float x1, float y1, float x2, float y2, float x3, float y3)
 {
 	float a = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
 	float b = sqrt(pow(x3 - x1, 2) + pow(y3 - y1, 2));

@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int TichChuSoLe(int);
+int ChuSoLonNhat(int);
 
 int main()
 {
@@ -8,22 +8,22 @@ int main()
     cout << "Nhap so nguyen duong n: ";
     cin >> n;
 
-    cout << "Tich cac chu so le cua " << n << " la: ";
-    cout << TichChuSoLe(n);
+    cout << "Chu so lon nhat cua " << n << " la: ";
+    cout << ChuSoLonNhat(n);
 
     return 1;
 }
 
-int TichChuSoLe(int nn)
+int ChuSoLonNhat(int nn)
 {
-    float tich = 0;
+    float lc = nn % 10;
     int t = nn;
     while (t != 0)
     {
-        int dv = t % 10;
-        if (dv % 2 != 0)
-            tich = tich * dv;
+        float dv = t % 10;
+        if (dv > lc)
+            lc = dv;
         t = t / 10;
     }
-    return tich;
+    return lc;
 }

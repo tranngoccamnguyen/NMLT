@@ -4,7 +4,7 @@
 #include <iomanip>
 using namespace std;
 
-float DienTich(float);
+float DienTich(int,int);
 
 int main()
 {
@@ -20,7 +20,7 @@ int main()
 	return 1;
 }
 
-float DienTich(float rr, int nn)
+float DienTich(int rr, int nn)
 {
 	return 1 / 2 * nn * rr * rr * sin(2 * M_PI / nn);
 }
